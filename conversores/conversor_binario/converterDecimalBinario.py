@@ -2,6 +2,8 @@ def converterDecimalBinario(numero):
 
     numeroConvertido = ""
 
+    numero = int(numero)
+
     while numero > 0:
         restoDivisao = numero % 2
         numero //= 2
