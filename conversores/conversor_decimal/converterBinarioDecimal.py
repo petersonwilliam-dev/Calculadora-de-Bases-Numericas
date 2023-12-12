@@ -10,4 +10,4 @@ def converterBinarioDecimal(numero):
 
         numeroPotencia += 1
 
-    return numeroConvertido
+    return str(numeroConvertido)
